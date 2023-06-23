@@ -25,7 +25,7 @@ From the original dataset we had 59, 400 entries and 41 features. After some str
 - quantity: quantity of well water
 - source: source of water
 - waterpoint_type: the kind of waterpoint
-- status_group: if its functional or non functional
+- status_group: if its functional (0) or nonfunctional (1)
 
 
 
@@ -60,5 +60,8 @@ This model did considerably better than the other ones, based on the recall scor
 
 ## Recommendations
 
-Some recommendations for next step include looking at the most important features and prioritizing them in the model. The quantity of water was the feature of most importance and so it should look at how it effects functionality and if it leads to a well becoming more dysfunctional or functional. Water quality should also be used to test if the water is drinkable or not, maybe creating a new feature to see if there's a correlation between drinkability and functionality of a well.
+Some recommendations for next step include looking at the most important features and prioritizing them. 
+1 . The quantity of water was the feature of most importance and so we should look at how it affects functionality and if it leads to a well becoming more dysfunctional or functional. 
+2. Water quality should also be used to test if the water is drinkable or not. More quantitative data on the water quality such as salt and fluoride content can help us determine how drinkable certain water wells and their sources are. 
+3. Having water wells close to nearby villages and having more data on how spread out these wells are from them to analyze how accessible these wells are. The nearer a well is, the better life outcomes for the people, specifically women who are disproportionately affected by distant wells because they are the main group collecting water for their families. 
 
