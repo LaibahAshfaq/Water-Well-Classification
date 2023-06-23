@@ -69,8 +69,8 @@ This model did considerably better than the other ones, based on the recall scor
 
 ## Recommendations
 
-Some recommendations for next step include looking at the most important features and prioritizing them. 
-  
+Some recommendations for next steps include looking at the most important features and prioritizing them:
+
   1 . The quantity of water was the feature of most importance and so we should look at how it affects functionality and if it leads to a well becoming more dysfunctional or functional. 
   
   2. Water quality should also be used to test if the water is drinkable or not. More quantitative data on the water quality such as salt and fluoride content can help us determine how drinkable certain water wells and their sources are.
