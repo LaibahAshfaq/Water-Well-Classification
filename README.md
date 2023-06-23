@@ -29,7 +29,15 @@ From the original dataset we had 59, 400 entries and 41 features. After some str
 
 
 
-## Explain your stakeholder audience and dataset choice here
+## Exploratory Data Analysis
+<img width="539" alt="Screen Shot 2023-06-23 at 6 10 06 AM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/6e43215c-a8e4-46de-b890-ba1c41fe1066">
+
+<img width="548" alt="Screen Shot 2023-06-23 at 1 58 37 AM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/f74851d1-f6ac-4f86-8e64-d3c560467391">
+
+<img width="544" alt="Screen Shot 2023-06-23 at 1 58 27 AM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/4747e359-5cfc-4e5d-a0f8-df02dfbec3f9">
+
+Looked at the distribution of features across the two classes. 
+
 ## Modeling
 ## Evaluation
 ## Conclusion
