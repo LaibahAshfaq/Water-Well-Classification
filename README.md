@@ -44,16 +44,25 @@ Found the best model to be a K-n-neighbours model tuned to specific hyperparamet
 
 <img width="531" alt="Screen Shot 2023-06-23 at 2 00 10 AM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/5c75a1d9-06ff-4432-8f98-a91cb9701453">
 <img width="388" alt="Screen Shot 2023-06-23 at 5 46 23 PM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/df9bedd8-ec0c-4f93-8557-4f5a8b65bd7a">
+
 Summary Metrics: 
--  precision Score: 0.72
--  Recall Score: 0.77
--  f1 Score: 0.74
--  Cross-Validation Accuracy Scores 0.80
--  ROC = 0.88
+- precision Score: 0.72
+- Recall Score: 0.77
+- f1 Score: 0.74
+- Cross-Validation Accuracy Scores 0.80
+- ROC = 0.88
+
+We used different metrics to assess the model such as  recall scores to assess the % of false negatives, our most important metric, and f1 scores to find the balance between false negative rates of defining a well as functional when it's not and false positive rates when calling it nonfunctional when it is functional.
+
+The AUC is comparable to our baseline, but our recall score is much higher at 0.77. and the f1 score shows that there's a better balance with it being highest for this model at 0.74.
+
+We can confidently say that the final model is best at minimizing both false negatives and false positives, which would be beneficial to both the people who need a functioning well and to the non-profit groups deployed to check up on non-functional wells. 
+
 
 <img width="385" alt="Screen Shot 2023-06-23 at 5 46 34 PM" src="https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/e85b0018-d585-4136-ad7a-a501b8808d45">
 
-Our most important features for this model were found using permutation importance, which used the recall score to evaluate if each feature is important or not if it was removed from the model and how much its absence decreased the score. 
+Our most important features for this model were found using permutation importance, which used the recall score to evaluate if each feature is important or not if it was removed from the model, and how much its absence decreased the score. 
+
 ## Evaluation
 
 This model did considerably better than the other ones, based on the recall score. Our first priority is to minimize false negative errors, thus our recall score is what we optimized for and we sacrificed having a barely higher f1 score for a greater recall. 
