@@ -1,4 +1,4 @@
-# Phase-3-Project
+# Water Well Classification
 ![water well pic](https://github.com/LeebeeNYC/Phase-3-Project/assets/128645674/ae8b4f3e-4341-4c0c-900f-f2040306a0e7)
 ## Overview
 
@@ -65,3 +65,5 @@ Some recommendations for next step include looking at the most important feature
 2. Water quality should also be used to test if the water is drinkable or not. More quantitative data on the water quality such as salt and fluoride content can help us determine how drinkable certain water wells and their sources are. 
 3. Having water wells close to nearby villages and having more data on how spread out these wells are from them to analyze how accessible these wells are. The nearer a well is, the better life outcomes for the people, specifically women who are disproportionately affected by distant wells because they are the main group collecting water for their families. 
 
+## Next Steps
+1. To be able to use this model to predict how functional water wells are in other countries by proactively checking on wells that are predicted to be non-functional. 
